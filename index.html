@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <script>
+    window.history.scrollRestoration = "manual";
+
+    if (window.location.hash) {
+      try {
+        window.history.replaceState(null, "", window.location.pathname + window.location.search);
+      } catch (error) {
+        window.location.hash = "";
+      }
+    }
+
+    window.addEventListener("pageshow", function() {
+      document.documentElement.style.scrollBehavior = "auto";
+      window.scrollTo(0, 0);
+      document.documentElement.style.removeProperty("scroll-behavior");
+    });
+  </script>
+  <title>Index - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.jpg" rel="icon" type="image/jpeg">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpeg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Samuel Kwadwo Bonsu</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://x.com/bangerz_kwadwo?s=11" class="twitter" aria-label="X" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/share/1GL2rxdXqY/?mibextid=wwXIfr" class="facebook" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/kwadwo_bangerz?stkn=MWx4NDA0cXYwemltbw%3D%3D&amp;utm_source=qr" class="instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+      <a href="https://wa.me/qr/GEXLKKGPKE4ID1" class="whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/samuel-kwadwo-bonsu-2a106134b?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" class="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpeg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Samuel Kwadwo Bonsu</h2>
+        <p>I'm <span class="typed" data-typed-items="IT Support Specialist, Web Developer, Cloud Enthusiast, Graphic Designer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I am a Computer Science student and digital solutions professional with practical experience in IT support, web development, cloud computing, graphic design, and video editing. I enjoy combining technology and creativity to develop digital solutions and engaging visual content.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Computer Science Student &amp; Digital Solutions Specialist.</h2>
+            <p class="fst-italic py-3">
+              I am passionate about learning, solving problems, and using technology to create meaningful and innovative solutions.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science (in progress)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>Portfolio in progress</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+233 59 948 3883</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Accra, Ghana</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Availability:</strong> <span>Open to opportunities</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Focus:</strong> <span>IT Support &amp; Web Development</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>bonsusamuelkwadwo@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I enjoy combining technology and creativity to develop digital solutions and engaging visual content. My work is driven by curiosity, problem-solving, and a desire to build practical tools that have a real impact.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>+
+              <p><strong>Projects Completed</strong> <span>Academic, personal &amp; client projects</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>+
+              <p><strong>Happy Clients</strong> <span>Individuals, organizations &amp; small businesses</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-clock-history"></i>
+              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>+
+              <p><strong>Hours of Work</strong> <span>Design, development &amp; technical projects</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-cpu"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>+
+              <p><strong>Technologies &amp; Skills</strong> <span>Web, IT, design, video &amp; cloud</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>I have developed practical skills across software development, IT support, graphic design, video editing, cloud computing, and digital media. I continue to improve these skills through academic projects, practical work, and personal projects.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>PHP</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Git &amp; GitHub</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>MySQL / Database</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Graphic Design</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Video Editing</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Adobe Photoshop</span> <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>IT Support &amp; Troubleshooting</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Computer Science student with practical experience in IT support, web development, cloud computing, graphic design, and video editing. Interested in technology, problem-solving, and creating effective digital solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Samuel Kwadwo Bonsu</h4>
+              <p><em>Computer Science student and digital solutions professional with practical experience in IT support, web development, cloud computing, graphic design, and video editing. I enjoy combining technology and creativity to develop digital solutions and engaging visual content.</em></p>
+              <ul>
+                <li>Accra, Ghana</li>
+                <li>+233 59 948 3883</li>
+                <li>bonsusamuelkwadwo@gmail.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science (BSc) in Computer Science</h4>
+              <h5>2022 – 2026</h5>
+              <p><em>Ghana Communication Technology University (GCTU), Accra, Ghana</em></p>
+              <ul>
+                <li>Studied computer science with a focus on software development, programming, databases, networking, and information technology.</li>
+                <li>Developed practical academic projects involving web development, databases, and software systems.</li>
+                <li>Gained experience working with technologies including HTML, CSS, JavaScript, PHP/MySQL, Git and GitHub.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Software Engineering Certificate</h4>
+              <h5>Training</h5>
+              <p><em>Ghana-India Kofi Annan Centre of Excellence in ICT (GI-KACE)</em></p>
+              <p>Completed practical training in software engineering and related technology concepts, with knowledge of software development practices and problem-solving.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>WASSCE – Science</h4>
+              <h5>2019 – 2021</h5>
+              <p><em>Berekum Senior High School, Ghana</em></p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>IT Support / Technician / Technical Producer</h4>
+              <h5>2024 – Present</h5>
+              <p><em>Independent / Contract Work — Ghana</em></p>
+              <ul>
+                <li>Provide technical support and assistance with computer and IT-related issues.</li>
+                <li>Support the technical production of digital and media content.</li>
+                <li>Assist with the setup, operation, and troubleshooting of technical equipment.</li>
+                <li>Work with the IT department to support the organization's technology needs.</li>
+                <li>Assist in identifying and resolving technical problems to maintain smooth operations.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Graphic Designer &amp; Video Editor</h4>
+              <h5>2022 – Present</h5>
+              <p><em>Freelance / Personal Projects</em></p>
+              <ul>
+                <li>Create graphic designs for social media, promotional content, and digital platforms.</li>
+                <li>Design flyers, social media posts, promotional graphics, and other visual materials.</li>
+                <li>Edit videos and create digital content for social media and online platforms.</li>
+                <li>Apply typography, layout, colour, and visual hierarchy to create engaging designs.</li>
+                <li>Continuously improve design and video-editing skills through practical projects and online learning.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Certifications &amp; Training</h3>
+            <div class="resume-item pb-0">
+              <ul>
+                <li>Software Engineering Certificate — Ghana-India Kofi Annan Centre of Excellence in ICT</li>
+                <li>AWS Cloud Training — AmaliTech / AWS Cloud Training</li>
+                <li>FreeCodeCamp — Web Development &amp; Programming Training</li>
+                <li>Udemy — Online Professional Training</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>A collection of my work in web development, graphic design, video editing, IT projects, and digital media. I enjoy combining technology and creativity to build practical solutions and engaging digital content.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-web">Web Development</li>
+            <li data-filter=".filter-design">Graphic Design</li>
+            <li data-filter=".filter-video">Video Editing</li>
+            <li data-filter=".filter-it">IT Projects</li>
+            <li data-filter=".filter-media">Digital Media</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>GCTU Academic Portal System</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>GCTU Academic Portal System</h4>
+                  <p>Web Development</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>Applicant Registration System</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Applicant Registration System</h4>
+                  <p>Web Development</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/andy%20dostySocial_Media1.png" class="img-fluid" alt="Social media graphic for Andy Dosty">
+                <div class="portfolio-info">
+                  <h4>Andy Dosty</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/DASocial_Media1.png" class="img-fluid" alt="Social media graphic for DA">
+                <div class="portfolio-info">
+                  <h4>DA</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/DVLASocial_Media1.png" class="img-fluid" alt="Social media graphic for DVLA">
+                <div class="portfolio-info">
+                  <h4>DVLA</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/Fancy%20GadamSocial_Media1.png" class="img-fluid" alt="Social media graphic for Fancy Gadam">
+                <div class="portfolio-info">
+                  <h4>Fancy Gadam</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/JOINT%2077Social_Media1.png" class="img-fluid" alt="Social media graphic for Joint 77">
+                <div class="portfolio-info">
+                  <h4>Joint 77</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/liwinSocial_Media1.png" class="img-fluid" alt="Social media graphic for Liwin">
+                <div class="portfolio-info">
+                  <h4>Liwin</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/pizzaSocial_Media1.png" class="img-fluid" alt="Pizza social media design">
+                <div class="portfolio-info">
+                  <h4>Pizza Promotion</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/players%20hairSocial_Media1.png" class="img-fluid" alt="Social media design for Players Hair">
+                <div class="portfolio-info">
+                  <h4>Players Hair</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/RCEESocial_Media1.png" class="img-fluid" alt="Social media graphic for RCEE">
+                <div class="portfolio-info">
+                  <h4>RCEE</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/SHATTA%20WALESocial_Media1.png" class="img-fluid" alt="Social media graphic for Shatta Wale">
+                <div class="portfolio-info">
+                  <h4>Shatta Wale</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/Social_Media1.jpg" class="img-fluid" alt="Social media graphic design">
+                <div class="portfolio-info">
+                  <h4>Social Media Artwork</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Social_Media/Spider-Man_Social_Media1.png" class="img-fluid" alt="Spider-Man social media graphic">
+                <div class="portfolio-info">
+                  <h4>Spider-Man Feature</h4>
+                  <p>Social Media Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/BANGERZ%20TECH%20hub%203.jpg" class="img-fluid" alt="Bangerz Tech Hub promotional graphic">
+                <div class="portfolio-info">
+                  <h4>Bangerz Tech Hub</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/CAR%20WASH.jpg" class="img-fluid" alt="Car wash promotional graphic">
+                <div class="portfolio-info">
+                  <h4>Car Wash Promotion</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/Event%20Flyer.jpg" class="img-fluid" alt="Event flyer design">
+                <div class="portfolio-info">
+                  <h4>Event Flyer</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/HOMES.jpg" class="img-fluid" alt="Homes promotional graphic">
+                <div class="portfolio-info">
+                  <h4>Homes Promotion</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/lilian%20Secnt-Recovered%20go%20done.png" class="img-fluid" alt="Lily's Corner perfume promotional graphic">
+                <div class="portfolio-info">
+                  <h4>Lily's Corner</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/Restaurant%20Social%20Media%20Advertisement.jpg" class="img-fluid" alt="Restaurant social media advertisement">
+                <div class="portfolio-info">
+                  <h4>Restaurant Promotion</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/RISING%20FAITH%20MINISTRY.jpg" class="img-fluid" alt="Rising Faith Ministry promotional graphic">
+                <div class="portfolio-info">
+                  <h4>Rising Faith Ministry</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/Untitled-1-Recovered.jpg" class="img-fluid" alt="Promotional graphic design">
+                <div class="portfolio-info">
+                  <h4>Promotional Artwork</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/News%20Graphics/YOUTH%20EMPOWERMENT%20SEMINAR.jpg" class="img-fluid" alt="Youth Empowerment Seminar flyer design">
+                <div class="portfolio-info">
+                  <h4>Youth Empowerment Seminar</h4>
+                  <p>Promotional Graphic Design</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>Promotional Video Editing</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Promotional Video Editing</h4>
+                  <p>Video Editing</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-it">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>IT Support &amp; Setup</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>IT Support &amp; Setup</h4>
+                  <p>IT Projects</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-media">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>Cast_News</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Cast_News</h4>
+                  <p>Digital Media</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-media">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>Social Media Content</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Social Media Content</h4>
+                  <p>Digital Media</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-video">
+              <div class="portfolio-content h-100">
+                <div class="portfolio-placeholder">
+                  <span>Short-form Video Content</span>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Short-form Video Content</h4>
+                  <p>Video Editing</p>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>I provide practical digital support and creative solutions that combine technology, communication, and design to help individuals and businesses work more effectively.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-laptop"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">IT Support &amp; Troubleshooting</a></h4>
+              <p class="description">Technical assistance for computers, devices, software issues, setup, and day-to-day IT support to keep systems running smoothly.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-code-square"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Web Development</a></h4>
+              <p class="description">Responsive, user-friendly websites and web solutions built with HTML, CSS, JavaScript, and PHP for business and personal brands.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-cloud-arrow-up"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Cloud &amp; Digital Solutions</a></h4>
+              <p class="description">Support with cloud concepts, digital tools, and practical technology solutions that improve productivity and digital workflows.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-palette"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Graphic Design</a></h4>
+              <p class="description">Creative design for social media posts, flyers, promotional graphics, branding materials, and digital visuals that stand out.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-camera-reels"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Video Editing</a></h4>
+              <p class="description">Short-form and promotional video editing for online platforms, social media campaigns, and digital storytelling content.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-megaphone"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Digital Content Creation</a></h4>
+              <p class="description">Creative digital media production combining design, visuals, and communication strategy for online engagement and promotion.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Simple feedback from people who have worked with me or seen my work in action.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Samuel is easy to work with and takes his work seriously. He listens well, solves problems fast, and always tries to do things properly.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>He is creative and willing to learn, and that makes him easy to trust on digital tasks. He works hard and is ready to help whenever there is a problem.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I like how calm and committed he is. He does not rush through work, and he makes sure the final result looks good and is useful.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Working with Samuel has been good because he is reliable and team-minded. He brings good ideas, pays attention to details, and is always ready to help the group.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+use the fil            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Feel free to reach out for collaborations, support work, design projects, or web-related opportunities.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Osu, Accra, Ghana</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+233 59 948 3883</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>bonsusamuelkwadwo@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps?q=Accra%2C%20Ghana&z=11&output=embed" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Samuel Kwadwo Bonsu</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
